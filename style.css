@@ -1,53 +1,103 @@
 /* global selection */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* nav-bar starts */
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
 }
 
 ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
 }
 
 ul li a {
-    text-decoration: none;
-    color: #575757;
+  text-decoration: none;
+  color: #575757;
 }
 
 ul li a:hover {
-    color: #1D4ED8;
+  color: #1d4ed8;
 }
 
 .common-btn {
-    background-color: #1D4ED8;
-    color: white;
-    padding: 10px 22px;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .common-btn:hover {
-    background-color: #0D1B2A;
+  background-color: #0d1b2a;
 }
 
 /* nav-bar ends */
+
+/* hero-section starts */
+
+.hero-banner {
+  /* couldn't take the gradient from figma, so had to take AI's help */
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.88) 87%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
+    url("./images/banner.jpg");
+
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-content {
+  padding-top: 112px;
+  color: white;
+  text-align: center;
+
+  margin-bottom: 28px;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  /* font-size: 22px; */
+  /* text-align: center; */
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 22px;
+  padding-bottom: 250px;
+}
+
+.wide-btn {
+  margin-bottom: 32px;
+}
+
+.wide-btn:hover {
+  background-color: gray;
+}
+/* hero-section ends */
 
