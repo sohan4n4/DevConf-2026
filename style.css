@@ -23,19 +23,19 @@ nav {
   padding: 12px 0px;
 }
 
-ul {
+.nav-bar {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 20px;
 }
 
-ul li a {
+.nav-bar li a {
   text-decoration: none;
   color: #575757;
 }
 
-ul li a:hover {
+.nav-bar li a:hover {
   color: #1d4ed8;
 }
 
@@ -59,7 +59,7 @@ ul li a:hover {
 /* hero-section starts */
 
 .hero-banner {
-  /* couldn't take the gradient from figma, so had to take AI's help */
+  /* couldn't take the gradient from figma, so had to take AI's help to get the linear color code */
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.88) 87%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
@@ -130,7 +130,6 @@ ul li a:hover {
   border-top-right-radius: 12px;
 }
 
-
 .speaker-info-container {
   padding: 24px;
   margin-bottom: 32px;
@@ -143,7 +142,7 @@ ul li a:hover {
 }
 
 .speaker-info-container p:first-of-type {
-  color: #2563EB;
+  color: #2563eb;
 }
 
 .speaker-info-container p:last-of-type {
@@ -151,5 +150,102 @@ ul li a:hover {
 }
 /* speakers-section ends */
 
+/* pricing-section starts */
 
+.pricing-parent {
+  margin-top: 87px;
+  margin-bottom: 32px;
+}
 
+.pricing-header {
+  text-align: center;
+  padding: 32px 22px;
+}
+
+.pricing-header h2 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #0d1b2a;
+  padding-bottom: 12px;
+}
+
+.pricing-header p {
+  color: #575757;
+}
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 22px;
+}
+
+.pricing-cards ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.cards {
+  border: 1px solid cyan;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.pro-card {
+  background-color: #0d1b2a;
+  color: white;
+}
+
+.cards-header h2 {
+  padding: 8px 0 12px;
+}
+
+.cards-header {
+  margin-bottom: 26px;
+}
+
+.cards-header h4 {
+  color: #888888;
+}
+
+.cards-header p:first-of-type {
+  color: #888888;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 18px;
+}
+
+.cards-features ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  padding-top: 12px;
+}
+
+.cards-features ul button {
+  background-color: white;
+  padding: 12px 22px;
+  border: 1px solid #2563eb;
+  border-radius: 12px;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 14px;
+  color: #2563eb;
+  padding: 12px;
+}
+
+.cards-features ul button:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+.cards-features ul .pro-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.cards-features ul .pro-btn:hover {
+  background-color: gray;
+}
+/* pricing-section ends */
