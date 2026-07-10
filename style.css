@@ -154,7 +154,7 @@ nav {
 
 .pricing-parent {
   margin-top: 87px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .pricing-header {
@@ -249,3 +249,200 @@ nav {
   background-color: gray;
 }
 /* pricing-section ends */
+
+/* AI-Placeholder starts */
+/* .countdown {
+  margin-top: 32px;
+  padding: 42px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+} */
+
+/* .time-box {
+  width: 100px;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+} */
+
+
+
+/* Shared Styles */
+
+.section-container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #0f172a;
+}
+
+/* Sponsors Section */
+
+.sponsors-section {
+  padding: 120px 0;
+  background: #f8fafc;
+}
+
+.logo-slider {
+  overflow: hidden;
+}
+
+.logo-track {
+  display: flex;
+  gap: 80px;
+  width: max-content;
+  animation: slide 20s linear infinite;
+}
+
+.logo-track h3 {
+  font-size: 2rem;
+  color: #94a3b8;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.logo-track h3:hover {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.countdown-btn:hover {
+  background-color: gray;
+}
+
+/* Countdown Section */
+
+.countdown-section {
+  padding: 120px 0;
+  background: #081225;
+  color: white;
+}
+
+.countdown-title {
+  color: white;
+}
+
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.time-box {
+  background: #0f172a;
+  width: 180px;
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.time-box:hover {
+  transform: translateY(-8px);
+}
+
+.time-box h3 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.time-box p {
+  color: #94a3b8;
+  font-size: 1.8rem;
+}
+
+.event-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.05);
+  width: 220px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  color: #94a3b8;
+}
+
+.countdown-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 18px 45px;
+  background: #2563eb;
+  color: white;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* FAQ Section */
+
+.faq-section {
+  padding: 120px 0;
+  background: white;
+}
+
+.faq-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-wrapper details {
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.faq-wrapper summary {
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #0f172a;
+}
+
+.faq-wrapper p {
+  margin-top: 20px;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+
+/* AI-Placeholder ends */
