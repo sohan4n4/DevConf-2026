@@ -224,7 +224,7 @@ nav {
 
 .cards-features ul button {
   background-color: white;
-  padding: 12px 22px;
+  padding: 18px 22px;
   border: 1px solid #2563eb;
   border-radius: 12px;
   cursor: pointer;
@@ -232,7 +232,6 @@ nav {
   font-weight: 600;
   font-size: 14px;
   color: #2563eb;
-  padding: 12px;
 }
 
 .cards-features ul button:hover {
@@ -243,6 +242,7 @@ nav {
 .cards-features ul .pro-btn {
   background-color: #2563eb;
   color: white;
+  border: 1px solid #0d1b2a;
 }
 
 .cards-features ul .pro-btn:hover {
@@ -251,22 +251,6 @@ nav {
 /* pricing-section ends */
 
 /* AI-Placeholder starts */
-/* .countdown {
-  margin-top: 32px;
-  padding: 42px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-} */
-
-/* .time-box {
-  width: 100px;
-  padding: 25px;
-  border-radius: 15px;
-  text-align: center;
-  background: #0f172a;
-  color: white;
-} */
 
 /* Shared Styles */
 
@@ -413,7 +397,7 @@ nav {
 /* FAQ Section */
 
 .faq-section {
-  padding: 120px 0;
+  padding: 112px 0 68px;
   background: white;
 }
 
@@ -443,3 +427,38 @@ nav {
 }
 
 /* AI-Placeholder ends */
+
+/* footer starts */
+
+footer {
+  background-color: #0D1B2A;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-icons span {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 0;
+  color: #FFFFFF;
+
+}
+
+.copy-right-ps {
+  display: flex;
+  gap: 18px;
+}
+/* footer ends */
