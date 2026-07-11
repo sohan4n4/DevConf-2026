@@ -18,6 +18,8 @@ body {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
   padding: 12px 0px;
@@ -447,6 +449,18 @@ footer {
   color: #FFFFFF;
 }
 
+.footer-icons span i {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+/* used this when the html inline SVGs were used  */
+
+/* .footer-icons span a {
+  text-decoration: none;
+} */
+
+
 .copy-right {
   display: flex;
   justify-content: space-between;
@@ -454,11 +468,11 @@ footer {
 
   padding: 12px 0;
   color: #FFFFFF;
-
 }
 
 .copy-right-ps {
   display: flex;
   gap: 18px;
 }
+
 /* footer ends */
