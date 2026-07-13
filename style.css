@@ -18,26 +18,27 @@ body {
 
 nav {
   display: flex;
+
+  /* wanted not to use flex-wrap cuz it breaks the design even-though without it there's a horizontal scroll-bar */
   flex-wrap: wrap;
-  flex: 1;
   justify-content: space-between;
   align-items: center;
   padding: 12px 0px;
 }
 
-.nav-bar {
+.nav-bar-ul {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 20px;
 }
 
-.nav-bar li a {
+.nav-bar-ul li a {
   text-decoration: none;
   color: #575757;
 }
 
-.nav-bar li a:hover {
+.nav-bar-ul li a:hover {
   color: #1d4ed8;
 }
 
@@ -54,6 +55,10 @@ nav {
 
 .common-btn:hover {
   background-color: gray;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
 }
 
 /* nav-bar ends */
@@ -87,8 +92,6 @@ nav {
 }
 
 .hero-content p {
-  /* font-size: 22px; */
-  /* text-align: center; */
   max-width: 600px;
   margin: 0 auto;
   padding-top: 22px;
@@ -149,6 +152,10 @@ nav {
 
 .speaker-info-container p:last-of-type {
   color: #575757;
+}
+
+.guest-speaker:hover {
+  cursor: pointer;
 }
 /* speakers-section ends */
 
@@ -433,7 +440,7 @@ nav {
 /* footer starts */
 
 footer {
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
 }
 
 .footer-container {
@@ -441,17 +448,21 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
 }
 
 .footer-icons span {
   font-size: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-icons span i {
-  margin-right: 12px;
+  margin-right: 8px;
   cursor: pointer;
+}
+
+.footer-icons span i:hover  {
+  color: #2563EB;
 }
 
 /* used this when the html inline SVGs were used  */
@@ -460,14 +471,13 @@ footer {
   text-decoration: none;
 } */
 
-
 .copy-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 12px 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .copy-right-ps {
