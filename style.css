@@ -36,6 +36,7 @@ nav {
 .nav-bar-ul li a {
   text-decoration: none;
   color: #575757;
+  font-weight: 500;
 }
 
 .nav-bar-ul li a:hover {
@@ -100,7 +101,7 @@ nav {
 
 .wide-btn {
   padding: 18px 42px;
-  margin-bottom: 32px;
+  margin-bottom: 52px;
 }
 
 .wide-btn:hover {
@@ -317,10 +318,6 @@ nav {
   }
 }
 
-.countdown-btn:hover {
-  background-color: gray;
-}
-
 /* Countdown Section */
 
 .countdown-section {
@@ -339,6 +336,10 @@ nav {
   gap: 25px;
   flex-wrap: wrap;
   margin-bottom: 80px;
+}
+
+.countdown-wrapper:hover {
+  cursor: pointer;
 }
 
 .time-box {
@@ -390,6 +391,10 @@ nav {
   color: #94a3b8;
 }
 
+.event-stats:hover {
+  cursor: pointer;
+}
+
 .countdown-btn {
   display: block;
   margin: 0 auto;
@@ -401,6 +406,10 @@ nav {
   font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.countdown-btn:hover {
+  background-color: gray;
 }
 
 /* FAQ Section */
@@ -461,11 +470,27 @@ footer {
   cursor: pointer;
 }
 
-.footer-icons span i:hover  {
-  color: #2563EB;
+.footer-logo:hover {
+  cursor: pointer;
 }
 
-/* used this when the html inline SVGs were used  */
+.footer-icons span i:hover {
+  color: #2563eb;
+}
+
+.copy-right-ps:hover {
+  cursor: pointer;
+}
+
+.copy-right-ps .privacy:hover {
+  text-decoration: underline;
+}
+
+.copy-right-ps .terms:hover {
+  text-decoration: underline;
+}
+
+/* used this style when the html inline SVGs were used  */
 
 /* .footer-icons span a {
   text-decoration: none;
